@@ -58,6 +58,25 @@ Find the repository at git@github.com:ChristoGH/pwc.git
   numpy
   ```
 
+### Installation using uv
+1. Install uv:
+   ```bash
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+   ```
+
+2. Create and activate a virtual environment:
+   ```bash
+   uv venv
+   source .venv/bin/activate  # On Unix/macOS
+   # or
+   .venv\Scripts\activate  # On Windows
+   ```
+
+3. Install dependencies:
+   ```bash
+   uv pip install streamlit pandas plotly statsmodels numpy
+   ```
+
 ## Data Requirements
 
 ### Bank Impairments Data
