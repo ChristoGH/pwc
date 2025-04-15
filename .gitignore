@@ -10,7 +10,6 @@ diff_output.txt
 *.sqlitebak
 *.stackdump
 *.sw[op]
-*.csv
 *.json
 .env
 *~
